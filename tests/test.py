@@ -1,7 +1,9 @@
+import unittest
+
 from enstore.core.functions import add
 
 
-class TestClass:
+class TestClass(unittest.TestCase):
 
     def test_placeholder(self):
         assert 3 == 3
