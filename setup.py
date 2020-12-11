@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 from enstore import VERSION
 
 this_dir = Path(__file__).parent
-with codecs.open(this_dir / "README.MD", encoding="utf-8") as ld_file:
+with codecs.open(this_dir / "README.md", encoding="utf-8") as ld_file:
     long_description = ld_file.read()
 
 with codecs.open(this_dir / "LICENSE", encoding="utf-8") as lic_file:
