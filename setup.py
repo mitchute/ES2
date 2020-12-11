@@ -20,8 +20,7 @@ setup(
     version=VERSION,
     packages=find_packages(exclude=["test", "tests", "test.*"]),
     long_description_content_type='text/markdown',
-    setup_requires="pytest-runner",
     test_suite="nose.collector",
-    tests_require=["pytest"],
+    tests_require=["nose3"],
     python_requires=">=3.5"
 )

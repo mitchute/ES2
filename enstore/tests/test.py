@@ -1,3 +1,6 @@
+from enstore.core.functions import add
+
+
 class TestClass:
 
     def test_placeholder(self):
@@ -5,3 +8,6 @@ class TestClass:
 
     def test_placeholder_2(self):
         assert 4 == 4
+
+    def test_add(self):
+        assert add(1, 1) == 2
