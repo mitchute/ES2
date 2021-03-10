@@ -20,3 +20,6 @@ class TestClass(unittest.TestCase):
 
     def test_add(self):
         assert add(1, 1) == 2
+
+    def test_fail(self):
+        assert 3 == 4
