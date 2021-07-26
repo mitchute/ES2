@@ -3,19 +3,19 @@ from pathlib import Path
 
 from setuptools import setup, find_packages
 
-from enstore import VERSION
+from src import VERSION
 
 this_dir = Path(__file__).parent
-with codecs.open(this_dir / "README.md", encoding="utf-8") as ld_file:
+with codecs.open(str(this_dir / "README.md"), encoding="utf-8") as ld_file:
     long_description = ld_file.read()
 
-with codecs.open(this_dir / "LICENSE", encoding="utf-8") as lic_file:
-    enstore_license = lic_file.read()
+with codecs.open(str(this_dir / "LICENSE"), encoding="utf-8") as lic_file:
+    lic_file = lic_file.read()
 
 setup(
-    name="EnStoreRefactorPrototype",
+    name="Prototype Repo",
     author="Matt Mitchell",
-    license=enstore_license,
+    license=lic_file,
     long_description=long_description,
     version=VERSION,
     packages=find_packages(exclude=["test", "tests", "test.*"]),

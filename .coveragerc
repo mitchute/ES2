@@ -1,4 +1,4 @@
 [run]
 source =
-        enstore/
+        src/
         tests/

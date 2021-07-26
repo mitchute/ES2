@@ -1,3 +1,6 @@
+# library deps
+coolprop
+
 # testing
 coveralls==2.2.0
 flake8==3.8.4

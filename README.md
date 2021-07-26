@@ -1,4 +1,4 @@
-# EnStore Refactor Prototype
+# Prototype Repo
 
 ## Build Status
 
